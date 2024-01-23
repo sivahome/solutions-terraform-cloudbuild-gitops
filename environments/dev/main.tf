@@ -21,7 +21,7 @@ provider "google" {
   project = "${var.project}"
 }
 
-module "vpc" {
+module "vpc12" {
   source  = "../../modules/vpc"
   project = "${var.project}"
   env     = "${local.env}"
